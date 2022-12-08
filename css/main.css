@@ -1,22 +1,22 @@
 .footer {
   display: flex;
   text-align: center;
-  padding: 5px;
+  padding: 72px;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   background-color: transparent;
   color: white;
-  text-align: white;
   height: 563px;
-  margin-top: 50px;
+  margin-top: 446px;
   font-size: 20px;
   font-weight: lighter;
-  width: 100%; }
-  .footer p {
-    display: flex;
-    text-align: center;
-    color: white; }
+  width: 51%; }
+
+p {
+  display: flex;
+  text-align: center;
+  color: white; }
 
 .header {
   display: flex;
@@ -24,7 +24,8 @@
   justify-content: space-between;
   align-items: center;
   padding: 5px;
-  width: 100%; }
+  width: 100%;
+  background-color: powderblue; }
 
 .header__navbar {
   width: 100%;
@@ -40,7 +41,7 @@
 
 /*------------------------------------ Pag INICIO-------------*/
 .encabezado {
-  background-image: url(./paginas/Imagenes/termas-de-chajari-entre-fondo.jpg);
+  background-image: url("https://www.chajarialdia.com.ar/wp-content/uploads/2020/06/1A2F-Multimedios-4.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
@@ -65,8 +66,8 @@
 .main {
   display: flex;
   text-align: center;
-  width: 100%;
-  padding: 10%; }
+  width: 98%;
+  padding: 7%; }
 
 .bg-light {
   text-decoration: none; }
