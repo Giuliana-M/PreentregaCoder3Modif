@@ -1,0 +1,21 @@
+.footer {
+    display: flex;
+    text-align: center;
+    padding: 5px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color:transparent;
+    color: white;
+    text-align: white;
+    height: 563px;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: lighter;
+    width: 100%;
+    p{
+        display: flex;
+        text-align: center;
+        color: white;
+}
+}
