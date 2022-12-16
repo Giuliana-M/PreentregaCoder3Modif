@@ -1,7 +1,102 @@
-.main{
-    background-image: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/GXOT3LPCSRAWRBLHATWVW3V3LM.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    }   
+  .titulo-contacto {
+        color: white;
+        font-size: 31px;
+        text-align: center;
+        padding-top: 20px;
+        margin: 15px 60px;
+        @include tablet {
+            font-size: 25px;
+        }
+        @include mobile {
+            font-size: 20px;
+            margin: 5px 10px;
+            padding: 0;
+        }
+    }
+    .div-main {
+        display: flex;
+        @include mobile {
+            flex-direction: column;
+        }
+        @include tablet {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    .formulario {
+        background-color: rgba(118, 175, 157, 0.6);
+        width: 60%;
+        height: auto;
+        margin: 50px 70px;
+        color: white;
+        font-size: 25px;
+        border-radius: 60px;
+        @include mobile {
+            width: 95%;
+            margin: 10px;
+            font-size: 15px;
+            border-radius: 18px;
+        }
+        @include tablet {
+            width: 80%;
+            margin: 10px;
+            font-size: 15px;
+            border-radius: 18px;
+        }
+        .formulario__formulario {
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            @include mobile {
+                padding: 0px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+            }
+            .formulario__descripcion {
+                margin: 10px;
+                input {
+                    width: 100%;
+                    height: 45px;
+                    border-radius: 10px;
+                    border-style: none;
+                    font-size: 20px;
+                    @include mobile {
+                        height: 25px;
+                        font-size: 16px;
+                    }
+                }
+                textarea {
+                    border-radius: 10px;
+                    border-style: none;
+                    width: 100%;
+                    height: 120px;
+                    resize:none;
+                    font-size: 20px;
+                    padding: 10px;
+                    @include mobile {
+                        font-size: 16px;
+                        padding: 5px;
+                    }
+                
+                }
+            }
+            .formulario__button {
+                width: 100%;
+                height: 30px;
+                border-radius: 10px;
+                background-color: #6e9c8a;
+                border-style: none;
+                font-size: 20px;
+                margin-top: 20px;
+                color: white;
+                font-family: 'Judson', serif;
+                box-shadow: 2px 2px 10px;
+                &:hover {
+                    transform: scale(1.05);
+                    transition: all 1s ease;
+                }
+            }
+        }
+        
+    }
